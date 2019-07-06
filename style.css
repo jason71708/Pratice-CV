@@ -128,7 +128,7 @@ a:fucus{
     height: 100%;
     background: linear-gradient(60deg,#4e4f95,#c87db4);
     opacity: 0.6;
-    z-index: -9;
+    z-index: -10;
 }
 
 /* lean */
@@ -183,7 +183,7 @@ header{
     .social-bar{
         padding: 16px;
     }
-    .social-bar{
+    .navbar{
         height: 60px;
     }
 }
