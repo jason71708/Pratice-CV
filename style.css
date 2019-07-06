@@ -329,6 +329,8 @@ header{
     font-size: 44px;
     font-weight: 800;
     color: #fefefe;
+    position: relative;
+    z-index: 10;
 }
 @media (min-width:576px){
  .hero_heading{
@@ -510,7 +512,6 @@ header{
     background-repeat: no-repeat;
     background-position: 85% 5% ;
     max-width: 1140px;
-    z-index: 10;
 }
 @media (max-width:992px){
     .hero_bg{
