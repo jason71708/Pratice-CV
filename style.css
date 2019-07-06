@@ -117,7 +117,7 @@ a:fucus{
     background-image: url(img/simon-zhu-wjDgkEcaNoI-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    z-index: -1;
+    z-index: -10;
 }
 .bg:after{
     content: "";
