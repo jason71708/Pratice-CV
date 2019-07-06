@@ -128,6 +128,7 @@ a:fucus{
     height: 100%;
     background: linear-gradient(60deg,#4e4f95,#c87db4);
     opacity: 0.6;
+    z-index: -9;
 }
 
 /* lean */
@@ -173,16 +174,17 @@ header{
 }
 .navbar{
     height: 80px;
-    /* border: 1px solid #fff; */
 }
 .social-bar{
-    /* border: 1px solid #fff; */
     padding: 24px;
     float: left;
 }
 @media (max-width: 575px) {
     .social-bar{
         padding: 16px;
+    }
+    .social-bar{
+        height: 60px;
     }
 }
 .icon-btn{
