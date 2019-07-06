@@ -510,7 +510,7 @@ header{
     background-repeat: no-repeat;
     background-position: 85% 5% ;
     max-width: 1140px;
-    z-index: -1;
+    z-index: 10;
 }
 @media (max-width:992px){
     .hero_bg{
